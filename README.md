@@ -2,9 +2,8 @@
 Repo for the Coursera "Getting and Cleaning Data" Course (#3)
 
 
-# ***********************************
+
 # About this Script (run_analysis.R)
-# ***********************************
 
 Introduction:  This script constitutes my answer to the "Peer-graded Assignment", that is
    part of the Coursera MOOC "Getting and Cleaning Data".
