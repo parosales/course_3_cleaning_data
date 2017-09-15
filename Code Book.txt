@@ -1,0 +1,75 @@
+Code Book for the "tidy_samsung_data.txt" file
+
+Introduction  
+-------------
+This code book constitutes my answer to the "Peer-graded Assignment", that is part of the Coursera MOOC "Getting and Cleaning Data".
+
+
+Script that generates this tidy dataset
+----------------------------------------
+run_analysis.R
+
+
+Attributes
+----------
+
+"subject_id"
+~~~~~~~~~~~~
+
+- Meaning:  The unique identifier of the subject of study.
+- Units:  None
+- Domain of values:  {1,2,3,4,5,6}
+
+"activity_name" 
+~~~~~~~~~~~~~~~
+
+- Meaning:  The activity 
+- Units: None
+- Domain of values:
+	WALKING
+	WALKING_UPSTAIRS
+	WALKING_DOWNSTAIRS
+	SITTING
+	STANDING
+	LAYING
+
+
+Axial signals
+~~~~~~~~~~~~~
+
+- Meaning:  
+
+ ~ These signals were used to estimate variables of the feature vector for each pattern:  '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+ ~ The set of variables that were estimated from these signals are: 
+
+  1) mean(): Mean value
+  2) std(): Standard deviation
+
+- Variables (by groups):
+
+ ~ "Time BodyAcc mean-X", "Time BodyAcc mean-Y", "Time BodyAcc mean-Z"  
+ ~ "Time GravityAcc mean-X", "Time GravityAcc mean-Y", "Time GravityAcc mean-Z" 
+ ~ "Time BodyAccJerk mean-X" "Time BodyAccJerk mean-Y" "Time BodyAccJerk mean-Z" 
+ ~ "Time BodyGyro mean-X" "Time BodyGyro mean-Y" "Time BodyGyro mean-Z" 
+ ~ "Time BodyGyroJerk mean-X" "Time BodyGyroJerk mean-Y" "Time BodyGyroJerk mean-Z" 
+ ~ "Time BodyAccMag mean" "Time GravityAccMag mean" "Time BodyAccJerkMag mean" "Time BodyGyroMag mean" "Time BodyGyroJerkMag mean" 
+ ~ "Frequency BodyAcc mean-X" "Frequency BodyAcc mean-Y" "Frequency BodyAcc mean-Z" 
+ ~ "Frequency BodyAcc meanFreq-X" "Frequency BodyAcc meanFreq-Y" "Frequency BodyAcc meanFreq-Z" 
+ ~ "Frequency BodyAccJerk mean-X" "Frequency BodyAccJerk mean-Y" "Frequency BodyAccJerk mean-Z" 
+ ~ "Frequency BodyAccJerk meanFreq-X" "Frequency BodyAccJerk meanFreq-Y" "Frequency BodyAccJerk meanFreq-Z" 
+ ~ "Frequency BodyGyro mean-X" "Frequency BodyGyro mean-Y" "Frequency BodyGyro mean-Z" 
+ ~ "Frequency BodyGyro meanFreq-X" "Frequency BodyGyro meanFreq-Y" "Frequency BodyGyro meanFreq-Z" 
+ ~ "Frequency BodyAccMag mean" "Frequency BodyAccMag meanFreq" "Frequency BodyBodyAccJerkMag mean" "Frequency BodyBodyAccJerkMag meanFreq" "Frequency BodyBodyGyroMag mean" "Frequency BodyBodyGyroMag meanFreq" "Frequency BodyBodyGyroJerkMag mean" "Frequency BodyBodyGyroJerkMag meanFreq" 
+ ~ "angle(tBodyAccMean,gravity)" "angle(tBodyAccJerkMean),gravityMean)" "angle(tBodyGyroMean,gravityMean)" "angle(tBodyGyroJerkMean,gravityMean)" 
+ ~ "angle(X,gravityMean)" "angle(Y,gravityMean)" "angle(Z,gravityMean)" 
+ ~ "Time BodyAcc std-X" "Time BodyAcc std-Y" "Time BodyAcc std-Z" 
+ ~ "Time GravityAcc std-X" "Time GravityAcc std-Y" "Time GravityAcc std-Z" 
+ ~ "Time BodyAccJerk std-X" "Time BodyAccJerk std-Y" "Time BodyAccJerk std-Z" 
+ ~"Time BodyGyro std-X" "Time BodyGyro std-Y" "Time BodyGyro std-Z" "Time 
+ ~ BodyGyroJerk std-X" "Time BodyGyroJerk std-Y" "Time BodyGyroJerk std-Z" 
+ ~ "Time BodyAccMag std" "Time GravityAccMag std" "Time BodyAccJerkMag std" "Time BodyGyroMag std" "Time BodyGyroJerkMag std" 
+ ~ "Frequency BodyAcc std-X" "Frequency BodyAcc std-Y" "Frequency BodyAcc std-Z" 
+ ~ "Frequency BodyAccJerk std-X" "Frequency BodyAccJerk std-Y" "Frequency BodyAccJerk std-Z" 
+ ~ "Frequency BodyGyro std-X" "Frequency BodyGyro std-Y" "Frequency BodyGyro std-Z" 
+ ~ "Frequency BodyAccMag std" "Frequency BodyBodyAccJerkMag std" "Frequency BodyBodyGyroMag std" "Frequency BodyBodyGyroJerkMag std"
+
